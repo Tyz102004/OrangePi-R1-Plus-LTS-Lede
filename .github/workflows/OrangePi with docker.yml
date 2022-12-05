@@ -23,9 +23,9 @@ on:
     branches: [master]
   pull_request:
     branches: [master]
-  schedule:
-    - cron: 0 0 * * *
-
+ # schedule:
+  #  - cron: 0 0 * * *
+#取消自动编译
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: "master"
